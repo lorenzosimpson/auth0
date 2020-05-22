@@ -25,6 +25,8 @@ const App = () => {
     return <Loading />;
   }
 
+  console.log(process.env.REACT_APP_KEY)
+
   return (
     <Router history={history}>
       <div id="app" className="d-flex flex-column h-100">
