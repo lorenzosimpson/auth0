@@ -19,13 +19,14 @@ import initFontAwesome from "./utils/initFontAwesome";
 initFontAwesome();
 
 const App = () => {
-  const { loading } = useAuth0();
+  const { loading, user } = useAuth0();
+
+  console.log(user)
 
   if (loading) {
     return <Loading />;
   }
 
-  console.log(process.env.REACT_APP_KEY)
 
   return (
     <Router history={history}>
