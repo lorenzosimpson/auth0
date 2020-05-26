@@ -13,7 +13,7 @@ console.log(user)
     <h1 className="mb-4">Lambda Technical Interview Demo</h1>
 
     <p className="lead">
-      Refactored from Auth0 SPA boilerplate to demonstrate persistent login and session handling.
+      Refactored from Auth0 SPA boilerplate to demonstrate login flow and persistent sessions.
     </p>
   </div>
  );

@@ -25,6 +25,8 @@ const NavBar = () => {
   const { user, isAuthenticated, loginWithRedirect, logout } = useAuth0();
   const toggle = () => setIsOpen(!isOpen);
 
+  console.log(isAuthenticated)
+
   const logoutWithRedirect = () =>
     logout({
       returnTo: window.location.origin
