@@ -2,6 +2,9 @@
   margin-right: 5px;
 }
 
+#foot {
+  min-height: 0 !important;
+}
 /* Fix for use only flexbox in content area */
 .next-steps .row {
   margin-bottom: 0;
